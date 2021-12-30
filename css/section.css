@@ -68,7 +68,9 @@
 
 .section__image {
   width: 82%;
-  /* border-radius: 50%; */
+  max-width: 306px;
+  max-height: 306px;
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {
