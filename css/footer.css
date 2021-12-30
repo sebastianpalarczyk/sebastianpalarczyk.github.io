@@ -8,7 +8,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
-  background: #2e2d37;
+  background: black;
   color: #eee;
 }
 
@@ -22,9 +22,10 @@
   text-decoration: underline;
 }
 
-.footer_image {
-  width: 18px;
-  height: 18px;
+.footer__image {
+  width: 100px;
+  height: 30
+  px;
   margin-right: 10px;
   position: center;
 }
