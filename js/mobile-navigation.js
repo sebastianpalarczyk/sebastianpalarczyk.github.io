@@ -10,7 +10,7 @@
     };
 
     const toggleMobileOnButtonClick = () => {
-        document.querySelector('.js-navigation__mobile-button').addEventListener('click', toggleMobileNavigation);
+       document.querySelector('.js-navigation__mobile-button').addEventListener('click', toggleMobileNavigation);  
     };
 
     const hideMobileNavigationOnNavigationClick = () => {
