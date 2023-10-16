@@ -16,7 +16,8 @@
 
 @media (max-width: 1240px) {
   .container--small {
-    width: 800px;
+    max-width: calc(100% - 400px);
+    /* width: 800px; */
   }
 }
 /*# sourceMappingURL=container.css.map */
