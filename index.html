@@ -20,211 +20,191 @@
   <link rel="stylesheet" href="css/navigation.css" />
   <link rel="stylesheet" href="css/section.css" />
   <link rel="stylesheet" href="css/testimonials.css" />
-  
+  <link rel="stylesheet" href="css/video.css" />
+
 
   <script defer src="js/mobile-navigation.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:400,700&display=swap&subset=latin-ext"
     rel="stylesheet" />
 
-  </head>
+</head>
 
 <body>
   <nav class="navigation js-navigation">
     <div class="container">
       <div class="navigation__row">
         <a class="logo" href="#">
+          <img src="images/logo.png" />
         </a>
         <div class="navigation__items js-navigation__items">
-          <a class="navigation__item" href="#">
-            O mnie
-          </a>
           <a class="navigation__item" href="#projekty">
-            Projekty na serwerze
-          </a>
-          <a class="navigation__item" href="#github">
-            GitHub
+            Projekty
           </a>
           <a class="navigation__item" href="#linkedin">
             Linkedin
           </a>
         </div>
-        <button class="js-navigation__mobile-button navigation__mobile-button" type="button">
-          <img class="navigation__mobile-button-image" src="images/navigation.svg" alt="Otwórz lub zamknij menu" />
-        </button>
       </div>
     </div>
   </nav>
 
   <main>
     <section class="section">
-      <div class="container">
-        <div class="section__inner">
-          <img src="images/image-3.JPG" class="section__image" alt="" />
-          <div class="section__text">
-            <h2 class="section__header">
-              O mnie
-            </h2>
-            <p class="section__paragraph">
-              Ukończyłem kurs programowania Java Backend Developer w firmie
-              szkoleniowej Coderslab. Dodatkowo ukończyłem internetowy kurs Frontend Developer
-              w firmie Youcode i aktualnie szukam swojej pierwszej pracy IT. W wolnych chwilach
-               tworzę swoje własne projekty zdobywając doświadczenie niekomercyjne.
-            </p>
-          </div>
-        </div>
+      <div class="video">
+        <video aria-hidden="true" muted autoplay loop playsinline width="100%">
+          <source src="video/palarczyk_eneterprises.mp4" type="video/mp4">
+        </video>
       </div>
     </section>
 
     <section class="section" id="projekty">
-      <h2 class="header">Projekty na serwerze</h2>
-
-      <div class="container container--small">
-        <a  class="section__anchor" href="https://app-palarczyk.herokuapp.com/">
-        <article class="testimonials__item">
-            <h3 class="testimonials__author">Aplikacja księgowa</h3>
-        </article>
-      </a>
-     <a  class="section__anchor" href="https://palarczykenterprises.com/hangman-game/">
-        <article class="testimonials__item">
-          <h3 class="testimonials__author">Gra w wisielca</h3>
-        </article>
-      </a>
-     <a  class="section__anchor" href="https://palarczykenterprises.com/memory_game/">
-        <article class="testimonials__item">
-          <h3 class="testimonials__author">Gra w pamięć</h3>
-        </article>
-      </a>
-     <a  class="section__anchor" href="https://palarczykenterprises.com/books">
-        <article class="testimonials__item">
-          <h3 class="testimonials__author">Lista książek</h3>
-        </article>
-      </a>
-      <a  class="section__anchor" href="https://app-palarczyk-charity.herokuapp.com/">
-        <article class="testimonials__item">
-          <h3 class="testimonials__author">Oddam w dobre ręce</h3>
-        </article>
-      </a>
-      <a  class="section__anchor" href="https://palarczykenterprises.com/todo_list_react/">
-        <article class="testimonials__item">
-          <h3 class="testimonials__author">Lista zadań</h3>
-        </article>
-      </a>
-      <a  class="section__anchor" href="https://palarczykenterprises.com/currency-converter-react/">
-        <article class="testimonials__item">
-          <h3 class="testimonials__author">Kalkulator walut</h3>
-        </article>
-      </a>
-       </div>
-      </div>
-    </section>
-
-    <section class="section" id="github">
-      <h2 class="header">Projekty na GitHub
-      </h2>
+      <h2 class="header">Projekty</h2>
 
       <div class="container">
-        <div class="testimonials">
-         <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/accounts_workshop">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Aplikacja księgowa</h3>
-            <p class="testimonials__content">Aplikacja księgowa, która w sposób automatyczny liczy podatki z wprowadzonych do serwisu 
-              faktur.
-            </p>
-          </article>
-        </a>
-
-        <a class="section__anchor" href="https://github.com/sebastianpalarczyk/Hangman-game">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Gra w wisielca</h3>
-            <p class="testimonials__content">Klasyczna gra w wisielca polegająca na odgadywaniu słów z kategorii przysłowia 
-              polskie.
-            </p>
-            
-          </article>
-        </a>
-
-       <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/Memory_game">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Gra w pamięć</h3>
-            <p class="testimonials__content">Klasyczna gra w pamięć z wykorzystaniem postaci komputerowej kolekcjonerskiej
-              gry karcianej.
-            </p>
-          </article>
-        </a>
-        <a class="section__anchor" href="https://github.com/sebastianpalarczyk/Driver">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Driver</h3>
-            <p class="testimonials__content">Aplikacja "backendowa" wykorzystująca interfejs REST API dla serwisu samochodowego zajmującego się szkoleniem kierowców. </p>
-          </article>
-        </a>
-       <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/Give_back_in_good_hands">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Oddaj w dobre ręce</h3>
-            <p class="testimonials__content">Aplikacja wykorzystująca wzorzec architektoniczny MVC. Służy do rejestracji niepotrzebnych rzeczy i przekazania ich
-              zaufanym instytucjom. </p>
-          </article>
-        </a>
-       <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/Scrum-Lab">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Zaplanuj jedzonko</h3>
-            <p class="testimonials__content">Aplikacja webowa wykorzystująca wzorzec architektoniczny MVC służąca do planowania 
-              posiłków w ciągu dnia.
-            </p>
-          </article>
-        </a>
-        <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/todo_list_react">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Lista zadań</h3>
-            <p class="testimonials__content">Klasyczna lista zadań, która jest zapisywana automatycznie w przeglądarce po stronie użytkownika w Local Storage. 
-              Aplikacja została napisana w JavaScript z wykorzystanie biblioteki React.js.
-            </p>
-          </article>
-        </a>
-        <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/currency-converter-react">
-          <article class="testimonials__item">
-            <img class="testimonials__image" alt="" src="images/image-4.png">
-            <h3 class="testimonials__author">Kalkulator walut</h3>
-            <p class="testimonials__content">Klasyczny kalkulator walut, który przelicza kwotę podaną w złotówkach na dolara amerykańskiego, euro lub funta brytyjskiego. 
-              Aplikacja została napisana z wykorzystaniem JavaScript oraz biblioteki React.js.
-            </p>
-          </article>
-          <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/books">
-            <article class="testimonials__item">
-              <img class="testimonials__image" alt="" src="images/image-4.png">
-              <h3 class="testimonials__author">Aplikacja frontendowa do listy książek</h3>
-              <p class="testimonials__content">
-                Aplikacja typu front-end napisana dla serwera REST - API, która została napisana w Javie. Aplikacja dodaje, uaktualnia i usuwa książki z listy.
-                Wykorzystane technologie  w projekcie: HTML, CSS, JavaScript.
-              </p>
-            </article>
-            <a  class="section__anchor" href="https://github.com/sebastianpalarczyk/list_of_books">
+        <table class="container">
+          <tr>
+            <td>
+              <a class="section__anchor" href="https://app-palarczyk.herokuapp.com/">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Aplikacja księgowa</h3>
+                </article>
+              </a>
+            </td>
+            <td>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/accounts_workshop">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Aplikacja księgowa</h3>
+                </article>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a class="section__anchor" href="https://palarczykenterprises.com/hangman-game/">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Gra w wisielca</h3>
+                </article>
+              </a>
+            </td>
+            <td>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/Hangman-game">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Gra w wisielca</h3>
+                </article>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a class="section__anchor" href="https://palarczykenterprises.com/memory_game/">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Gra w pamięć</h3>
+                </article>
+              </a>
+            </td>
+            <td>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/Memory_game">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Gra w pamięć</h3>
+                </article>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td class="section_anchor_double">
+              <a class="section__anchor section_anchor_double" href="https://palarczykenterprises.com/books">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Lista książek</h3>
+                </article>
+              </a>
+            </td>
+            <td>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/books">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Lista ksiązek frontend</h3>
+                </article>
+              </a>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/list_of_books">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Lista książek backend</h3>
+                </article>
+              </a>
+          </tr>
+          </td>
+          </tr>
+          <tr>
+            <td>
+              <a class="section__anchor" href="https://palarczykenterprises.com/todo_list_react/">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Lista zadań</h3>
+                </article>
+              </a>
+            </td>
+            <td>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/todo_list_react">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Lista zadań</h3>
+                </article>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a class="section__anchor" href="https://palarczykenterprises.com/currency-converter-react/">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Kalkulator walut</h3>
+                </article>
+              </a>
+            </td>
+            <td>
               <article class="testimonials__item">
-                <img class="testimonials__image" alt="" src="images/image-4.png">
-                <h3 class="testimonials__author">Aplikacja backendowa do listy książek</h3>
-                <p class="testimonials__content">REST - API application which is written in Java. Aplikacja dodaje, uaktualnia i usuwa książki z listy. Wykorzystane 
-                  technologie w projekcie: Java, Java EE, Spring Boot, Apache Tomcat, MySQL Connector in Java, Model mapper.
-                </p>
+                <img class="testimonials__image" alt="" src="images/image_github.png">
+                <h3 class="testimonials__author">Kalkulator walut</h3>
               </article>
-        </a>
-        </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a class="section__anchor" href="https://app-palarczyk-charity.herokuapp.com/">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_www.jpg">
+                  <h3 class="testimonials__author">Oddam w dobre ręce</h3>
+                </article>
+              </a>
+            </td>
+            <td>
+              <a class="section__anchor" href="https://github.com/sebastianpalarczyk/Give_back_in_good_hands">
+                <article class="testimonials__item">
+                  <img class="testimonials__image" alt="" src="images/image_github.png">
+                  <h3 class="testimonials__author">Oddaj w dobre ręce</h3>
+                </article>
+              </a>
+            </td>
+          </tr>
+        </table>
       </div>
     </section>
   </main>
 
   <footer class="footer" id="linkedin">
     <a class="footer__link" href="https://linkedin.com/in/sebastianpalarczyk/">
-      <img class="footer__image" src="images/image-1.png">
+      <img class="footer__image" src="images/image_linkedIn.png">
     </a>
   </footer>
 
-  </body>
+</body>
 
 </html>
