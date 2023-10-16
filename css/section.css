@@ -42,11 +42,6 @@
   text-decoration: none;
 }
 
-.section_anchor_double {
-
-  height: 100%;
-}
-
 @media (max-width: 767px) {
   .section__header {
     font-size: 25px;
